@@ -3,4 +3,3 @@ resource "aws_media_convert_queue" "test" {
   pricing_plan = var.queue["pricing_plan"]
   status       = var.queue["status"]
 }
-
