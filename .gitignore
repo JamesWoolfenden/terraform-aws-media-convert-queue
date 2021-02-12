@@ -6,6 +6,7 @@
 .terraform
 .idea
 *.iml
+*.orig
 *.ini
 *~HEAD
 *backup
