@@ -1,5 +1,5 @@
 variable "queue" {
-  type = map
+  type = map(any)
   default = {
     name         = "tf-test-queue"
     pricing_plan = "ON_DEMAND"

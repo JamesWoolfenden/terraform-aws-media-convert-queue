@@ -24,7 +24,7 @@ No requirements.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| queue | n/a | `map` | <pre>{<br>  "name": "tf-test-queue",<br>  "pricing_plan": "ON_DEMAND",<br>  "status": "ACTIVE"<br>}</pre> | no |
+| queue | n/a | `map(any)` | <pre>{<br>  "name": "tf-test-queue",<br>  "pricing_plan": "ON_DEMAND",<br>  "status": "ACTIVE"<br>}</pre> | no |
 
 ## Outputs
 
