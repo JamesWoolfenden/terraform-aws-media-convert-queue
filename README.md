@@ -20,6 +20,16 @@ No requirements.
 |------|---------|
 | aws | n/a |
 
+## Modules
+
+No Modules.
+
+## Resources
+
+| Name |
+|------|
+| [aws_media_convert_queue](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/media_convert_queue) |
+
 ## Inputs
 
 | Name | Description | Type | Default | Required |
@@ -31,7 +41,6 @@ No requirements.
 | Name | Description |
 |------|-------------|
 | queue | n/a |
-
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
 ## Instructions
