@@ -18,29 +18,29 @@ No requirements.
 
 | Name | Version |
 |------|---------|
-| aws | n/a |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | n/a |
 
 ## Modules
 
-No Modules.
+No modules.
 
 ## Resources
 
-| Name |
-|------|
-| [aws_media_convert_queue](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/media_convert_queue) |
+| Name | Type |
+|------|------|
+| [aws_media_convert_queue.test](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/media_convert_queue) | resource |
 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| queue | n/a | `map(any)` | <pre>{<br>  "name": "tf-test-queue",<br>  "pricing_plan": "ON_DEMAND",<br>  "status": "ACTIVE"<br>}</pre> | no |
+| <a name="input_queue"></a> [queue](#input\_queue) | n/a | `map(any)` | <pre>{<br>  "name": "tf-test-queue",<br>  "pricing_plan": "ON_DEMAND",<br>  "status": "ACTIVE"<br>}</pre> | no |
 
 ## Outputs
 
 | Name | Description |
 |------|-------------|
-| queue | n/a |
+| <a name="output_queue"></a> [queue](#output\_queue) | n/a |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
 ## Instructions
