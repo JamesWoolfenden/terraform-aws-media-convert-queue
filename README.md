@@ -9,16 +9,18 @@
 [![checkov](https://img.shields.io/badge/checkov-verified-brightgreen)](https://www.checkov.io/)
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/jameswoolfenden/terraform-aws-media-convert-queue/general)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=JamesWoolfenden%2Fterraform-aws-media-convert-queue&benchmark=INFRASTRUCTURE+SECURITY)
 Sample illustration of new tf resource
+
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+
 ## Requirements
 
 No requirements.
 
 ## Providers
 
-| Name | Version |
-|------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | n/a |
+| Name                                             | Version |
+| ------------------------------------------------ | ------- |
+| <a name="provider_aws"></a> [aws](#provider_aws) | n/a     |
 
 ## Modules
 
@@ -26,21 +28,22 @@ No modules.
 
 ## Resources
 
-| Name | Type |
-|------|------|
+| Name                                                                                                                            | Type     |
+| ------------------------------------------------------------------------------------------------------------------------------- | -------- |
 | [aws_media_convert_queue.test](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/media_convert_queue) | resource |
 
 ## Inputs
 
-| Name | Description | Type | Default | Required |
-|------|-------------|------|---------|:--------:|
-| <a name="input_queue"></a> [queue](#input\_queue) | n/a | `map(any)` | <pre>{<br>  "name": "tf-test-queue",<br>  "pricing_plan": "ON_DEMAND",<br>  "status": "ACTIVE"<br>}</pre> | no |
+| Name                                             | Description | Type       | Default                                                                                                | Required |
+| ------------------------------------------------ | ----------- | ---------- | ------------------------------------------------------------------------------------------------------ | :------: |
+| <a name="input_queue"></a> [queue](#input_queue) | n/a         | `map(any)` | <pre>{<br> "name": "tf-test-queue",<br> "pricing_plan": "ON_DEMAND",<br> "status": "ACTIVE"<br>}</pre> |    no    |
 
 ## Outputs
 
-| Name | Description |
-|------|-------------|
-| <a name="output_queue"></a> [queue](#output\_queue) | n/a |
+| Name                                               | Description |
+| -------------------------------------------------- | ----------- |
+| <a name="output_queue"></a> [queue](#output_queue) | n/a         |
+
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
 ## Instructions
@@ -65,7 +68,7 @@ Please use the [issue tracker](https://github.com/jameswoolfenden/terraform-aws-
 
 ## Copyrights
 
-Copyright © 2019-2021 James Woolfenden
+Copyright © 2019-2022 James Woolfenden
 
 ## License
 
