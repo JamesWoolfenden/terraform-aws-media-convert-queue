@@ -1,13 +1,12 @@
 # terraform-aws-media-convert-queue
 
-[![Build Status](https://github.com/JamesWoolfenden/terraform-aws-media-convert-queue/workflows/Verify%20and%20Bump/badge.svg?branch=master)](https://github.com/JamesWoolfenden/terraform-aws-media-convert-queue)
+[![Build Status](https://github.com/JamesWoolfenden/terraform-aws-media-convert-queue/workflows/Verify/badge.svg?branch=main)](https://github.com/JamesWoolfenden/terraform-aws-media-convert-queue)
 [![Latest Release](https://img.shields.io/github/release/JamesWoolfenden/terraform-aws-media-convert-queue.svg)](https://github.com/JamesWoolfenden/terraform-aws-media-convert-queue/releases/latest)
 [![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/JamesWoolfenden/terraform-aws-media-convert-queue.svg?label=latest)](https://github.com/JamesWoolfenden/terraform-aws-media-convert-queue/releases/latest)
 ![Terraform Version](https://img.shields.io/badge/tf-%3E%3D0.14.0-blue.svg)
-[![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/JamesWoolfenden/terraform-aws-media-convert-queue/cis_aws)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=JamesWoolfenden%2Fterraform-aws-media-convert-queue&benchmark=CIS+AWS+V1.2)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
 [![checkov](https://img.shields.io/badge/checkov-verified-brightgreen)](https://www.checkov.io/)
-[![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/jameswoolfenden/terraform-aws-media-convert-queue/general)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=JamesWoolfenden%2Fterraform-aws-media-convert-queue&benchmark=INFRASTRUCTURE+SECURITY)
+
 Sample illustration of new tf resource
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
@@ -18,7 +17,7 @@ No requirements.
 ## Providers
 
 | Name | Version |
-|------|---------|
+| ---- | ------- |
 | <a name="provider_aws"></a> [aws](#provider\_aws) | n/a |
 
 ## Modules
@@ -28,19 +27,19 @@ No modules.
 ## Resources
 
 | Name | Type |
-|------|------|
+| ---- | ---- |
 | [aws_media_convert_queue.test](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/media_convert_queue) | resource |
 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
-|------|-------------|------|---------|:--------:|
-| <a name="input_queue"></a> [queue](#input\_queue) | n/a | `map(any)` | <pre>{<br>  "name": "tf-test-queue",<br>  "pricing_plan": "ON_DEMAND",<br>  "status": "ACTIVE"<br>}</pre> | no |
+| ---- | ----------- | ---- | ------- | :------: |
+| <a name="input_queue"></a> [queue](#input\_queue) | n/a | `map(any)` | <pre>{<br/>  "name": "tf-test-queue",<br/>  "pricing_plan": "ON_DEMAND",<br/>  "status": "ACTIVE"<br/>}</pre> | no |
 
 ## Outputs
 
 | Name | Description |
-|------|-------------|
+| ---- | ----------- |
 | <a name="output_queue"></a> [queue](#output\_queue) | n/a |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
